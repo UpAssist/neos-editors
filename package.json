@@ -1,6 +1,6 @@
 {
   "name": "upassist.neos-editors",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Custom editors Neos",
   "main": "index.js",
   "scripts": {
