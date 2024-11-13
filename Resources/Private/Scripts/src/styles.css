@@ -22,3 +22,7 @@
 	word-wrap: break-word;
 	font-size: 13px;
 }
+
+.ArrayInfoEditor__content a {
+	color: #00adee;
+}
