@@ -1,0 +1,11 @@
+Neos:
+  Neos:
+    Ui:
+      resources:
+        stylesheets:
+          'UpAssist.Neos.Editors:ArrayInfoEditor':
+            resource: resource://UpAssist.Neos.Editors/Public/ArrayInfoEditor/Plugin.css
+          'NeosRulez.Neos.Editors.PasswordInput':
+        javascript:
+          'UpAssist.Neos.Editors:ArrayInfoEditor':
+            resource: resource://UpAssist.Neos.Editors/Public/ArrayInfoEditor/Plugin.js

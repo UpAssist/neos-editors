@@ -1,18 +1,18 @@
 {
     "description": "",
     "type": "neos-package",
-    "name": "upassist/arraydisplayeditor",
+    "name": "upassist/neos-editors",
     "require": {
-        "neos/flow": "*"
+        "neos/neos-ui": ">=5.2"
     },
     "autoload": {
         "psr-4": {
-            "UpAssist\\ArrayDisplayEditor\\": "Classes/"
+            "UpAssist\\Neos\\Editors\\": "Classes/"
         }
     },
     "extra": {
         "neos": {
-            "package-key": "UpAssist.ArrayDisplayEditor"
+            "package-key": "UpAssist.Neos.Editors"
         }
     }
 }
