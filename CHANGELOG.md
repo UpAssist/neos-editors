@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.2](https://github.com/UpAssist/neos-editors/compare/1.1.1...1.1.2) (2026-11-19)
+
+
+### Bug Fixes
+
+* ArrayInfoEditor: nested arrays/objects no longer crash the editor (React error #31); they render as a nested list
+* ArrayInfoEditor: booleans render as `true`/`false` instead of nothing
+* ArrayInfoEditor: an empty or unset value shows "No values" instead of the inherited "Choose" placeholder of the `array` data type; a configured `placeholder` still wins
+
 ## [1.1.1](https://github.com/UpAssist/neos-editors/compare/1.1.0...1.1.1) (2026-11-19)
 
 
