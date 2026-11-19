@@ -1,0 +1,14 @@
+version: 2
+updates:
+  # The PHP side has no dependencies to update. The JS build in
+  # Resources/Private/Scripts is dev-only (the built Plugin.js is committed),
+  # so only GitHub Actions get version updates; security updates still cover
+  # the yarn.lock.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    open-pull-requests-limit: 5
+    groups:
+      actions-minor-patch:
+        update-types: [minor, patch]
