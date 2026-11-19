@@ -1,14 +1,10 @@
 {
-    "description": "",
+    "description": "Additional inspector editors for the Neos CMS UI (ArrayInfoEditor)",
     "type": "neos-package",
     "name": "upassist/neos-editors",
+    "license": "MIT",
     "require": {
-        "neos/neos-ui": ">=5.2"
-    },
-    "autoload": {
-        "psr-4": {
-            "UpAssist\\Neos\\Editors\\": "Classes/"
-        }
+        "neos/neos-ui": "^7.3 || ^8.3 || ^9.0"
     },
     "extra": {
         "neos": {
