@@ -26,3 +26,14 @@
 .ArrayInfoEditor__content a {
 	color: #00adee;
 }
+
+.ArrayInfoEditor--nested {
+	margin: 4px 0 0;
+	border-left: 2px solid #3f3f3f;
+}
+
+.ArrayInfoEditor--nested .ArrayInfoEditor__item {
+	background-color: transparent;
+	padding: 2px 0 2px 10px;
+	margin-bottom: 0;
+}
