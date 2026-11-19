@@ -2,6 +2,18 @@
 
 Additional editors to be used in the Neos CMS.
 
+## Compatibility
+
+| Version | Neos |
+| --- | --- |
+| 1.1.x | 7.3 (in production, not tested in our dev installs), 8.3, 8.4, 9.0, 9.1, 9.2 |
+
+## Installation
+
+```bash
+composer require upassist/neos-editors
+```
+
 ## ArrayInfoEditor
 
 ### What it does
