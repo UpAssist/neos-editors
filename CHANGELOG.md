@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/UpAssist/neos-editors/compare/1.1.2...1.2.0) (2026-11-20)
+
+
+### Features
+
+* build the UI plugin with esbuild and the `extensibilityMap` of `@neos-project/neos-ui-extensibility`, following the Neos UI plugin guideline, instead of the webpack 4 / Babel 6 `neos-react-scripts` toolchain; one build serves Neos UI 7.3 up to 9.x
+* CSS modules through `esbuild-plugin-lightningcss-modules` (`styles.module.css`), the loader the Neos UI itself uses
+* CI rebuilds the plugin and fails when the committed `Resources/Public` bundle does not match the sources
+
 ## [1.1.2](https://github.com/UpAssist/neos-editors/compare/1.1.1...1.1.2) (2026-11-19)
 
 
