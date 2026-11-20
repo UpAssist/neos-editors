@@ -1,6 +1,6 @@
 import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
-import styles from './styles.css';
+import styles from './styles.module.css';
 import {neos} from '@neos-project/neos-ui-decorators';
 
 // Placeholders that come from the Neos defaults of the `array` data type (meant for the

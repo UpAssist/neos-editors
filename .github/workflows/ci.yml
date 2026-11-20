@@ -9,3 +9,17 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - run: composer validate --no-check-publish
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Resources/Private/Scripts
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - run: yarn install --frozen-lockfile
+      - run: yarn build
+      # The built plugin is committed: it must match the sources.
+      - run: git diff --exit-code -- ../../Public
